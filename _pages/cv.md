@@ -20,7 +20,6 @@ Work experience
 
 
 * Summer 2015: Teaching Assistant
-  * Worcester Polytechnic Institute
   * CS 109 matlab
 
   
@@ -28,6 +27,8 @@ Skills
 ======
 * Python
   
-Service and leadership
+Paper review
 ======
-* Currently signed in to 43 different slack teams
+* KDD 2024
+* NeurIPS 2024
+* NEUCOM 2024
