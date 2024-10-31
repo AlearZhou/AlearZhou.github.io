@@ -19,7 +19,7 @@ Work experience
 ======
 
 
-* Summer 2015: Teaching Assistant
+* Fall 2024: Teaching Assistant
   * CS 109 matlab
 
   
