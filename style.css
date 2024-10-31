@@ -1,72 +1,87 @@
-.profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-    float: left;
-}
-
-.intro {
-    display: flex;
-    align-items: center;
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.intro p {
-    margin: 0;
-    font-size: 1.1em;
-    color: #333;
-}
-body {
-    font-family: Arial, sans-serif;
+/* Reset some default styles */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    color: #333;
 }
 
-header {
-    background-color: #333;
+/* Header styling */
+.main-header {
+    background-color: #005f73;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-header h1 {
-    margin: 0;
-    font-size: 24px;
+.main-header h1 {
+    font-size: 2.5em;
+    margin-bottom: 5px;
 }
 
-nav {
-    margin-top: 10px;
+.main-header p {
+    font-size: 1.2em;
+    margin-bottom: 15px;
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 15px;
+    font-size: 1em;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
 
-main {
-    padding: 20px;
+/* Intro section styling */
+.intro {
+    display: flex;
+    align-items: center;
     max-width: 800px;
-    margin: 20px auto;
+    margin: 30px auto;
+    padding: 20px;
     background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+    border: 3px solid #005f73;
+}
+
+.intro-text p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 15px;
     color: #333;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
+/* Mobile responsive styling */
+@media (max-width: 768px) {
+    .intro {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .profile-pic {
+        margin: 0 0 15px 0;
+    }
+    
+    nav a {
+        display: inline-block;
+        margin: 0 10px;
+    }
 }
