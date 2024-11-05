@@ -29,6 +29,4 @@ Skills
   
 Paper review
 ======
-* KDD 2024
-* NeurIPS 2024
-* NEUCOM 2024
+* KDD 2024, NeurIPS 2024, NEUCOM 2024, WSDM 2024, SIGIR 2024
