@@ -11,7 +11,8 @@ redirect_from:
 
 Education
 ======
-* Ph.D in CS, University of Illinois Chicago, 2029 (expected)
+* Ph.D. in Computer Science and Engineering, The Pennsylvania State University, 2029 (expected)
+* Ph.D. Student in Computer Science, University of Illinois Chicago (previously)
 * M.S. in Data Science, Worcester Polytechnic Institute, 2024
 * B.S. in Data Science and Big data technology, Zhejiang University of Finance and Economics, 2022
 
